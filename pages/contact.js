@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm, ValidationError } from "@statickit/react";
 import Container from "../components/Container";
-import { Box, Heading, Input, Text, Textarea, Button } from "@chakra-ui/core";
+import { Box, Heading, Input, Text, Textarea, Button } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("contactForm");
