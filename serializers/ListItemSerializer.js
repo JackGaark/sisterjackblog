@@ -1,4 +1,4 @@
-import { Listitem } from "@chakra-ui/react";
+import { ListItem } from "@chakra-ui/react";
 
 const ListItemSerializer = props => {
     const { node, children } = props;

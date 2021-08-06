@@ -1,5 +1,5 @@
 import PostPreview from "../components/PostPreview";
-import { Box, Heading, SimpleGrid} from "chakra-ui/react";
+import { Box, Heading, SimpleGrid} from "@chakra-ui/react";
 
 export default function MorePosts({posts}) {
     return (
