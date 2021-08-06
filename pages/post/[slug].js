@@ -6,6 +6,7 @@ import PostHeader from "../../components/PostHeader";
 import MorePosts from "../../components/MorePosts";
 import { getAllPostsWithSlug, getPostAndMorePosts } from "../../lib/api";
 import { NextSeo } from "next-seo";
+
 export default function Post({ post, morePosts }) {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) {
