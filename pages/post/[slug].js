@@ -41,7 +41,7 @@ export default function Post({ post, morePosts }) {
                 site_name: "James Perkins",
               }}
               twitter={{
-                handle: "@JGaark",
+                handle: "@james_r_perkins",
                 cardType: "summary_large_image",
               }}
             />
