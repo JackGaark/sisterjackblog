@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { imageBuilder } from "../lib/api";
-import { Image, Box } from "@chakra-ui/image";
+import { Image, Box } from "@chakra-ui/react";
 
 export default function CoverImage({ title,url, slug}) {
     const image = (
