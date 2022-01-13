@@ -60,11 +60,16 @@ export default function Container({ children }) {
               Home
             </Button>
           </NextLink>
-          <NextLink href="/blog" passHref>
+          <NextLink href="/projects" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
-              Blog
+              Projects
             </Button>
           </NextLink>
+          <a href="https://github.com/JackGaark" target="_blank">
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              Github
+            </Button>
+          </a>
           <NextLink href="/contact" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
               Contact
