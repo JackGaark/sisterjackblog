@@ -6,8 +6,7 @@ import {
   Button,
   Flex,
   Box,
-  IconButton,
-  Icon,
+  Heading
 } from "@chakra-ui/react";
 import Footer from "../components/Footer";
 
@@ -49,11 +48,14 @@ export default function Container({ children }) {
         mb={8}
         mx="auto"
       >
-        <IconButton
+        {/* <IconButton
           aria-label="Toggle Dark Mode"
           icon={colorMode === "dark" ? "sun" : "moon"}
           onClick={toggleColorMode}
-        />
+        /> */}
+        <Heading fontSize="36px">
+          Jack Gaarkeuken
+        </Heading>
         <Box>
           <NextLink href="/" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>

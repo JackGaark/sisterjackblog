@@ -4,7 +4,9 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <link href="https://blogfonts.com/css/aWQ9MTk4OTg2JnN1Yj05ODYmYz1yJnR0Zj1SYW51YVRyaWFscy1Cb2xkSXRhbGljLm90ZiZuPXJhbnVhLXRyaWFscy02/Ranua Trials.otf" rel="stylesheet" type="text/css"/>
+        </Head>
         <body>
           <Main />
           <NextScript />
