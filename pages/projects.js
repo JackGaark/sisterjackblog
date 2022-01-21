@@ -21,7 +21,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-{/* <link href="https://blogfonts.com/css/aWQ9MTk4OTg2JnN1Yj05ODYmYz1yJnR0Zj1SYW51YVRyaWFscy1Cb2xkLm90ZiZuPXJhbnVhLXRyaWFscy01/Ranua Trials.otf" rel="stylesheet" type="text/css"/>
-
-font-family: 'ranua-trials-5', sans-serif; */}

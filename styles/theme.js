@@ -1,10 +1,10 @@
-import { extendTheme } from "@chakra-ui/react";
+import { extendTheme, theme as base } from "@chakra-ui/react";
 
 
 const theme = extendTheme({
     fonts: {
-        heading: 'RanuaTrials-BoldItalic',
-        body: 'RanuaTrials-BoldItalic',
+        heading: `RanuaTrials-BoldItalic, ${base.fonts?.heading}`,
+        body: `RanuaTrials-BoldItalic ${base.fonts.body}`,
       },
 });
 

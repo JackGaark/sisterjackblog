@@ -18,12 +18,11 @@ const GlobalStyle = ({ children }) => {
     <>
       <CSSReset />
         <Head>
-        <link href="https://blogfonts.com/css/aWQ9MTk4OTg2JnN1Yj05ODYmYz1yJnR0Zj1SYW51YVRyaWFscy1Cb2xkSXRhbGljLm90ZiZuPXJhbnVhLXRyaWFscy02/Ranua Trials.otf" rel="stylesheet" type="text/css"/>
+        <link href="https://blogfonts.com/css/aWQ9MTk4OTg2JnN1Yj05ODYmYz1yJnR0Zj1SYW51YVRyaWFscy1Cb2xkSXRhbGljLm90ZiZuPXJhbnVhLXRyaWFscy02/RanuaTrials.otf" rel="stylesheet" type="text/css"/>
         </Head>
 
       <Global
         styles={`
-        /* latin */
         @font-face {
           font-family: 'RanuaTrials-BoldItalic';
           font-style: normal;
