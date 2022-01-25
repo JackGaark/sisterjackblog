@@ -26,14 +26,14 @@ export default function Home() {
           Insert a solid intro statement here. Hi, I'm Jack. Great to meet you. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here.
         </Text>
         <Divider borderColor='orange.300' />
-          <Flex alignItems="start">
+          <Flex wrap="wrap" alignItems="start">
             <Box width="20vw" p="15px" marginLeft="268px">
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CV</Text>
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">Bootcamp</Text>
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">Online Classes</Text>
               </Box>
                 <Box width="40vw" p="5px">
-                  <Flex mr="400px" spacing={4} marginBottom={4} color={useColorModeValue('orange.300')}>
+                  <Flex wrap="wrap" mr="400px" spacing={4} marginBottom={4} color={useColorModeValue('orange.300')}>
                       <a href="https://github.com/JackGaark" target="_blank">
                           LinkedIn
                       </a>
@@ -47,7 +47,14 @@ export default function Home() {
                       </Text>
                     <UnorderedList>
                         <ListItem textColor="orange.300">Advanced React, Name of School</ListItem>
-                        <ListItem>Complete Intro to React, Name of School</ListItem>
+                        <ListItem>
+                          <Flex>
+                            <Text>
+                              Complete Intro to React,
+                            </Text>
+                            <Text color="orange.300"> Name of School</Text>
+                          </Flex>
+                        </ListItem>
                         <ListItem>Advanced React, Name of School</ListItem>
                         <ListItem>Complete Intro to React, Name of School</ListItem>
                         <ListItem>Gatsby Workshops, Name of School</ListItem>
