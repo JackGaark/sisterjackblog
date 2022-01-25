@@ -6,6 +6,11 @@ const theme = extendTheme({
         heading: `RanuaTrials-BoldItalic, ${base.fonts?.heading}`,
         body: `RanuaTrials-BoldItalic ${base.fonts.body}`,
       },
+      colors: {
+        orange: {
+          300: '#F67B08'
+        }
+      },
 });
 
 export default theme;

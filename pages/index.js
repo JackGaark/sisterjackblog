@@ -6,12 +6,16 @@ import {
   Spacer,
   Box,
   UnorderedList,
-  ListItem
+  ListItem,
+  Divider,
+  useColorModeValue
 } from "@chakra-ui/react";
 
 import { NextSeo } from "next-seo";
 export default function Home() {
   const { colorMode } = useColorMode();
+  const bgColor = useColorModeValue('gray.50', 'whiteAlpha.50');
+  const borderColor = useColorModeValue('gray.50', 'whiteAlpha.50');
   return (
     <Container maxWidth="container.xl" padding={0}>
       <NextSeo
@@ -21,6 +25,7 @@ export default function Home() {
         <Text width="1018px" height="258px" mt={2} marginLeft="40px" fontSize="36px" fontWeight="normal" lineHeight="43px" fontStyle="normal">
           Insert a solid intro statement here. Hi, I'm Jack. Great to meet you. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here.
         </Text>
+        <Divider borderColor='orange.300' />
           <Flex alignItems="start">
             <Box width="20vw" p="15px" marginLeft="268px">
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CV</Text>
@@ -28,11 +33,11 @@ export default function Home() {
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">Online Classes</Text>
               </Box>
                 <Box width="40vw" p="15px">
-                  <Flex marginBottom={4}>
+                  <Flex marginBottom={4} color={useColorModeValue('orange.300')}>
                       <a href="https://github.com/JackGaark" target="_blank">
                           LinkedIn
                       </a>
-                    <Spacer />
+                    <Spacer spacing={2}/>
                       <a href="https://github.com/JackGaark" target="_blank">
                           Github
                       </a>
@@ -41,7 +46,7 @@ export default function Home() {
                           Le Wagon, Montreal Qc.
                       </Text>
                     <UnorderedList>
-                        <ListItem>Advanced React, Name of School</ListItem>
+                        <ListItem textColor="orange.300">Advanced React, Name of School</ListItem>
                         <ListItem>Complete Intro to React, Name of School</ListItem>
                         <ListItem>Advanced React, Name of School</ListItem>
                         <ListItem>Complete Intro to React, Name of School</ListItem>
@@ -49,15 +54,16 @@ export default function Home() {
                         <ListItem>Gatsby Workshops, Name of School</ListItem>
                         <ListItem>Gatsby Workshops, Name of School</ListItem>
                     </UnorderedList>
-                  </Box>
+                </Box>
                 </Flex>
+                <Divider borderColor='orange.300' />
                 <Flex alignItems="start">
                 <Box width="20vw" p="15px" marginLeft="268px">
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CONTACT</Text>
                 </Box>
-                <Box width="40vw" marginLeft="5vw" p="15px">
-                    <Text width="1018px" height="258px" mt={2} fontSize="36px" fontWeight="normal" lineHeight="43px" fontStyle="normal">
-                    My pronouns are he/him.  And I am fluent in engliusha dn french
+                <Box width="40vw" p="15px">
+                    <Text width="560px" height="140 px" mt={2} fontSize="36px" fontWeight="normal" lineHeight="43px" fontStyle="normal">
+                    My pronouns are he/him.  And I am fluent in english and in french.
                     Always happy to hear about new opportunities localy and remote
                     </Text>
                 </Box>
