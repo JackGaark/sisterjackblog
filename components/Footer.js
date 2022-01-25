@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <Flex justify="center" mb={4}>
+    <Flex wrap="wrap" justify="center" mb={4}>
       <Link
         href="#"
         pr={12}
