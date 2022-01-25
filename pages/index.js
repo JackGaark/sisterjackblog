@@ -32,12 +32,12 @@ export default function Home() {
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">Bootcamp</Text>
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">Online Classes</Text>
               </Box>
-                <Box width="40vw" p="15px">
-                  <Flex marginBottom={4} color={useColorModeValue('orange.300')}>
+                <Box width="40vw" p="5px">
+                  <Flex mr="400px" spacing={4} marginBottom={4} color={useColorModeValue('orange.300')}>
                       <a href="https://github.com/JackGaark" target="_blank">
                           LinkedIn
                       </a>
-                    <Spacer spacing={2}/>
+                    <Spacer spacing={1}/>
                       <a href="https://github.com/JackGaark" target="_blank">
                           Github
                       </a>
@@ -62,12 +62,13 @@ export default function Home() {
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CONTACT</Text>
                 </Box>
                 <Box width="40vw" p="15px">
-                    <Text width="560px" height="140 px" mt={2} fontSize="36px" fontWeight="normal" lineHeight="43px" fontStyle="normal">
-                    My pronouns are he/him.  And I am fluent in english and in french.
-                    Always happy to hear about new opportunities localy and remote
+                    <Text width="560px" height="140 px" mt={2} fontSize="18px" fontWeight="400" lineHeight="21.6px" fontStyle="normal">
+                    My pronouns are he/him.  And I am fluent in english and in french. I am located in Montreal, Qc.
+
+                    Always happy to hear about new opportunities localy and remote.  The best way to reach me is via email or on LinkedIn.
                     </Text>
                 </Box>
-                </Flex>
+              </Flex>
     </Container>
   );
 }
