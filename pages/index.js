@@ -26,7 +26,7 @@ export default function Home() {
           Insert a solid intro statement here. Hi, I'm Jack. Great to meet you. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here.
         </Text>
         <Divider borderColor='orange.300' />
-          <Flex alignItems="start">
+          <Flex wrap="wrap" alignItems="start">
             <Box width="20vw" p="15px" marginLeft="268px">
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CV</Text>
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">Bootcamp</Text>
@@ -64,7 +64,7 @@ export default function Home() {
                 </Box>
                 </Flex>
                 <Divider borderColor='orange.300' />
-                <Flex alignItems="start">
+                <Flex wrap="wrap" alignItems="start">
                 <Box width="20vw" p="15px" marginLeft="268px">
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CONTACT</Text>
                 </Box>
