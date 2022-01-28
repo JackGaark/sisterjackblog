@@ -12,7 +12,6 @@ const Projects = () => {
       />
       <Box maxWidth="700px" width="100%" px={6} mt={[0, 8]} mb={8} mx="auto">
         <Heading mb={2} size="2xl" as="h1">
-          {" "}
           Projects
         </Heading>
       </Box>
