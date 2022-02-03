@@ -10,8 +10,8 @@ const ContactForm = () => {
     return (
       <Container>
         <NextSeo
-          title="Contact Us | James Perkins | Developer | Youtuber"
-          description="Contact Page for James Perkins"
+          title="Contact Us | Jack Gaarkeuken | Developer | Youtuber"
+          description="Contact Page for Jack Gaarkeuken"
         />
         <Box maxWidth="700px" width="100%" px={6} mt={[0, 8]} mb={8} mx="auto">
           <Heading mb={2} size="2xl" as="h1">
@@ -29,8 +29,8 @@ const ContactForm = () => {
   return (
     <Container>
       <NextSeo
-        title="Contact Us | James Perkins | Developer | Youtuber"
-        description="Contact Page for James Perkins"
+        title="Contact Us | Jack Gaarkeuken | Developer | Youtuber"
+        description="Contact Page for Jack Gaarkeuken"
       />
       <Box maxWidth="700px" width="100%" px={6} mt={[0, 8]} mb={8} mx="auto">
         <Heading mb={2} size="2xl" as="h1">

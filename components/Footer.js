@@ -8,7 +8,7 @@ import {
 
 export default function Footer() {
   return (
-    <Flex justify="right" mb={4}>
+    <Flex justify="right" mb={4} paddingY="5px">
       <Link
         href="#"
         pr={12}

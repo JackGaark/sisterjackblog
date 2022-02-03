@@ -22,10 +22,10 @@ export default function Home() {
         title="Home | Jack Gaarkeuken | Developer "
         description="Homepage of Jack Gaarkeuken"
       />
-        <Text width="1018px" height="258px" mt={2} marginLeft="40px" fontSize="36px" fontWeight="normal" lineHeight="43px" fontStyle="normal">
+        <Text width="1018px" height="258px" mt={2} marginLeft="0" fontSize="36px" fontWeight="normal" lineHeight="43px" fontStyle="normal">
           Insert a solid intro statement here. Hi, I'm Jack. Great to meet you. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here.
         </Text>
-        <Divider borderColor='orange.300' />
+        <Divider borderColor='orange.300' width='1018px'paddingY="48px"/>
           <Flex wrap="wrap" alignItems="start">
             <Box width="20vw" p="15px" marginLeft="268px">
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CV</Text>
@@ -42,40 +42,72 @@ export default function Home() {
                           Github
                       </a>
                     </Flex>
-                      <Text marginBottom={4}>
-                          Le Wagon, Montreal Qc.
-                      </Text>
+                    <Flex>
+                        <Text color="orange.300">Le Wagon,</Text>
+                        <Text>Montreal, Qc.</Text>
+                      </Flex>
                     <UnorderedList>
-                        <ListItem textColor="orange.300">Advanced React, Name of School</ListItem>
+                      <ListItem>
+                      <Flex>
+                        <Text>Advanced React,</Text>
+                        <Text color="orange.300">Name of School</Text>
+                      </Flex>
+                      </ListItem>
                         <ListItem>
                           <Flex>
                             <Text>
                               Complete Intro to React,
                             </Text>
-                            <Text color="orange.300"> Name of School</Text>
+                            <Text color="orange.300">Name of School</Text>
                           </Flex>
                         </ListItem>
-                        <ListItem>Advanced React, Name of School</ListItem>
-                        <ListItem>Complete Intro to React, Name of School</ListItem>
-                        <ListItem>Gatsby Workshops, Name of School</ListItem>
-                        <ListItem>Gatsby Workshops, Name of School</ListItem>
-                        <ListItem>Gatsby Workshops, Name of School</ListItem>
+                        <ListItem>
+                      <Flex>
+                        <Text>Advanced React,</Text>
+                        <Text color="orange.300">Name of School</Text>
+                      </Flex>
+                      </ListItem>
+                      <ListItem>
+                      <Flex>
+                        <Text>Advanced React,</Text>
+                        <Text color="orange.300">Name of School</Text>
+                      </Flex>
+                      </ListItem>
+                      <ListItem>
+                      <Flex>
+                        <Text>Advanced React,</Text>
+                        <Text color="orange.300">Name of School</Text>
+                      </Flex>
+                      </ListItem>
+                      <ListItem>
+                      <Flex>
+                        <Text>Advanced React,</Text>
+                        <Text color="orange.300">Name of School</Text>
+                      </Flex>
+                      </ListItem>
+                      <ListItem>
+                      <Flex>
+                        <Text>Advanced React,</Text>
+                        <Text color="orange.300">Name of School</Text>
+                      </Flex>
+                      </ListItem>
                     </UnorderedList>
                 </Box>
                 </Flex>
-                <Divider borderColor='orange.300' />
+                <Divider borderColor='orange.300' width='1018px'/>
                 <Flex wrap="wrap" alignItems="start">
                 <Box width="20vw" p="15px" marginLeft="268px">
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CONTACT</Text>
                 </Box>
                 <Box width="40vw" p="15px">
-                    <Text width="560px" height="140 px" mt={2} fontSize="18px" fontWeight="400" lineHeight="21.6px" fontStyle="normal">
+                    <Text width="400px" height="140 px" mt={2} fontSize="18px" fontWeight="400" lineHeight="21.6px" fontStyle="normal">
                     My pronouns are he/him.  And I am fluent in english and in french. I am located in Montreal, Qc.
 
                     Always happy to hear about new opportunities localy and remote.  The best way to reach me is via email or on LinkedIn.
                     </Text>
                 </Box>
               </Flex>
+              <Divider borderColor='orange.300' width='330px' marginLeft='75%'/>
     </Container>
   );
 }

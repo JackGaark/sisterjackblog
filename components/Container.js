@@ -53,7 +53,7 @@ export default function Container({ children }) {
           icon={colorMode === "dark" ? "sun" : "moon"}
           onClick={toggleColorMode}
         /> */}
-        <Heading padding={0} fontSize="36px" marginLeft="-70px" color="orange.500">
+        <Heading padding={0} fontSize="36px" marginLeft="-70px" color="orange.300">
           Jack Gaarkeuken
         </Heading>
         <Box>
