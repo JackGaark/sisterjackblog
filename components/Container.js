@@ -39,7 +39,6 @@ export default function Container({ children }) {
         flexDirection="row"
         justifyContent="space-between"
         alignItems="center"
-        maxWidth="1200px"
         width="100%"
         bg={navBgColor[colorMode]}
         as="nav"
@@ -53,7 +52,7 @@ export default function Container({ children }) {
           icon={colorMode === "dark" ? "sun" : "moon"}
           onClick={toggleColorMode}
         /> */}
-        <Heading padding={0} fontSize="36px" marginLeft="-70px" color="orange.300">
+        <Heading padding={0} fontSize="36px" color="orange.300">
           Jack Gaarkeuken
         </Heading>
         <Box>
@@ -85,7 +84,7 @@ export default function Container({ children }) {
         flexDirection="column"
         bg={bgColor[colorMode]}
         color={primarytextColor[colorMode]}
-        px={8}
+        px={{base: 2, md: 8}}
       >
         {children}
         <Footer />

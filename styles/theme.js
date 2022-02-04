@@ -1,6 +1,4 @@
 import { extendTheme, theme as base } from "@chakra-ui/react";
-
-
 const theme = extendTheme({
     fonts: {
         heading: `RanuaTrials`,
@@ -14,3 +12,5 @@ const theme = extendTheme({
 });
 
 export default theme;
+
+
