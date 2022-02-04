@@ -25,8 +25,8 @@ export default function Home() {
         <Text width="1018px" height="258px" mt={2} marginLeft="0" fontSize="36px" fontWeight="normal" lineHeight="43px" fontStyle="normal">
           Insert a solid intro statement here. Hi, I'm Jack. Great to meet you. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here.
         </Text>
-        <Divider borderColor='orange.300' width='1018px'paddingY="48px"/>
-          <Flex wrap="wrap" alignItems="start">
+        <Divider borderColor='orange.300' width='1018px'paddingY="20px"/>
+          <Flex wrap="wrap" alignItems="start" paddingY="36px">
             <Box width="20vw" p="15px" marginLeft="268px">
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CV</Text>
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">Bootcamp</Text>
@@ -99,7 +99,7 @@ export default function Home() {
                 <Box width="20vw" p="15px" marginLeft="268px">
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CONTACT</Text>
                 </Box>
-                <Box width="40vw" p="15px">
+                <Box width="40vw" p="15px" >
                     <Text width="400px" height="140 px" mt={2} fontSize="18px" fontWeight="400" lineHeight="21.6px" fontStyle="normal">
                     My pronouns are he/him.  And I am fluent in english and in french. I am located in Montreal, Qc.
 
@@ -107,7 +107,9 @@ export default function Home() {
                     </Text>
                 </Box>
               </Flex>
-              <Divider borderColor='orange.300' width='330px' marginLeft='75%'/>
+              <Box padding="32px">
+                <Divider borderColor='orange.300' width='330px' marginLeft='75%'/>
+              </Box>
     </Container>
   );
 }

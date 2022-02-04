@@ -1,14 +1,9 @@
 import React from "react";
 import { Flex, Link } from "@chakra-ui/react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faTwitter
-} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
-    <Flex justify="right" mb={4} paddingY="5px">
+    <Flex justify="right" mb={4} paddingY="5px" paddingX="30px" color="orange.300">
       <Link
         href="#"
         pr={12}
@@ -16,12 +11,9 @@ export default function Footer() {
         rel="noopener noreferrer"
         aria-label="Youtube Link"
       >
-        <FontAwesomeIcon
-          padding={6}
-          icon={faInstagram}
-          size="2x"
-          color="#eb3223"
-        />
+        <a href="https://www.instagram.com/jaco.svg/" target="_blank">
+                          IG
+        </a> 
       </Link>
       <Link
         href="#"
@@ -30,7 +22,9 @@ export default function Footer() {
         rel="noopener noreferrer"
         aria-label="Youtube Link"
       >
-        <FontAwesomeIcon icon={faTwitter} size="2x" color="#49a1eb" />
+        <a href="https://twitter.com/JacoSvg" target="_blank">
+                          TW
+        </a>
       </Link>
     </Flex>
   );
