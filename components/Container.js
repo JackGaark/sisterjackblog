@@ -42,7 +42,7 @@ export default function Container({ children }) {
         width="100%"
         bg={navBgColor[colorMode]}
         as="nav"
-        p={8}
+        p={{ base: '2', md: '12'}}
         mt={[0, 8]}
         mb={8}
         mx="auto"
@@ -84,7 +84,7 @@ export default function Container({ children }) {
         flexDirection="column"
         bg={bgColor[colorMode]}
         color={primarytextColor[colorMode]}
-        px={{base: 2, md: 8}}
+        // px={{base: 2, md: 8}}
       >
         {children}
         <Footer />

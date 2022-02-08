@@ -9,9 +9,10 @@ const Projects = (image) => {
         title="Contact Us | Jack Gaarkeuken | Developer | Youtuber"
         description="Contact Page for Jack Gaarkeuken"
       />
-      <Box w="100vw" alignItems="flex-start" columns={2} padding="0" margin="0">
-          <Flex alignItems="flex-start" wrap="wrap" justifyContent={{base: 'flex-start', md:'space-between'}} >
-            <Box width={{ base: '100vw', md: '35vw' }}>
+      <Box w="100vw" alignItems="flex-start" padding="0" margin="0">
+          <Flex alignItems="flex-start" wrap="wrap" justifyContent={{base: 'flex-start', md:'center'}} >
+          <a href="//superbonjour.com" target="_blank">
+            <Box width={{ base: '100vw', md: '45vw' }}>
             <Heading size="2xl" mb={2} as="h1" paddingY="30px">
               Project Name
             </Heading>
@@ -29,7 +30,8 @@ const Projects = (image) => {
               CSS, Javascript, HTML, Tagtag, Tagtagtag
               </Text>
             </Box>
-            <Box width={{ base: '100vw', md: '35vw' }}>
+          </a>
+            <Box width={{ base: '100vw', md: '45vw' }} marginLeft={{ base: '0', md: '45px'}}>
             <Heading size="2xl" mb={2} as="h1" paddingY="30px">
               Project Name
             </Heading>
@@ -48,13 +50,13 @@ const Projects = (image) => {
           </Flex>
       </Box>
       <Box w="100vw" alignItems="flex-start" >
-          <Flex alignItems="flex-start" wrap="wrap" justifyContent={{base: 'flex-start', md:'space-between'}}>
-            <Box width={{ base: '100vw', md: '40vw' }}>
+          <Flex alignItems="flex-start" wrap="wrap" justifyContent={{base: 'flex-start', md:'center'}}>
+            <Box width={{ base: '100vw', md: '45vw' }}>
             <Heading size="2xl" mb={2} as="h1" paddingY="30px">
               Project Name
             </Heading>
             <Image
-              width={{base: '100vw', md: '500px'}}
+              width={{base: '100vw', md: '100%'}}
               boxShadow="2xl"
               height="45vh"
               src={'https://picsum.photos/200/300'}
@@ -65,12 +67,12 @@ const Projects = (image) => {
               CSS, Javascript, HTML, Tagtag, Tagtagtag
               </Text>
             </Box>
-            <Box width={{ base: '100vw', md: '40vw' }}>
+            <Box width={{ base: '100vw', md: '45vw' }} marginLeft={{ base: '0', md: '45px'}}>
             <Heading size="2xl" mb={2} as="h1" paddingY="30px">
               Project Name
             </Heading>
             <Image
-              width={{base: '100vw', md: '500px'}}
+              width={{base: '100vw', md: '100%'}}
               boxShadow="2xl"
               height="45vh"
               src={'https://picsum.photos/200/300'}
