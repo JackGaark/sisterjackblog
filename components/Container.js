@@ -42,7 +42,7 @@ export default function Container({ children }) {
         width="100%"
         bg={navBgColor[colorMode]}
         as="nav"
-        p={{ base: '2', md: '12'}}
+        p={{ base: '2', md: '40px'}}
         mt={[0, 8]}
         mb={8}
         mx="auto"

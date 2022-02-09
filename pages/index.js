@@ -22,7 +22,7 @@ export default function Home() {
         title="Home | Jack Gaarkeuken | Developer "
         description="Homepage of Jack Gaarkeuken"
       />
-        <Text width="80vw" mt={2} marginLeft="0" fontSize="36px" fontWeight="normal" lineHeight="43px" fontStyle="normal">
+        <Text width="80vw" mt={2} marginLeft="40px" fontSize="36px" fontWeight="normal" lineHeight="43px" fontStyle="normal">
           Insert a solid intro statement here. Hi, I'm Jack. Great to meet you. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here.
         </Text>
         <Divider borderColor='orange.300' width='80vw'paddingY="20px"/>
