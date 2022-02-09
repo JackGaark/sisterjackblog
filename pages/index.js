@@ -25,7 +25,7 @@ export default function Home() {
         <Text width="80vw" mt={2} marginLeft="40px" fontSize="36px" fontWeight="normal" lineHeight="43px" fontStyle="normal">
           Insert a solid intro statement here. Hi, I'm Jack. Great to meet you. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here. Insert a solid intro statement here.
         </Text>
-        <Divider borderColor='orange.300' width='80vw'paddingY="20px"/>
+        <Divider borderColor='orange.300' width='80vw'paddingY="20px"marginLeft="40px"/>
           <Flex wrap="wrap" alignItems="start" paddingY="36px">
             <Box width={{ base: '100vw', md: '20vw' }} p="15px" marginLeft={{ base: '0', md: '268px' }} >
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CV</Text>
@@ -94,7 +94,7 @@ export default function Home() {
                     </UnorderedList>
                 </Box>
                 </Flex>
-                <Divider borderColor='orange.300' width='80vw'/>
+                <Divider borderColor='orange.300' width='80vw' marginLeft="40px"/>
                 <Flex wrap="wrap" alignItems="start">
                 <Box width={{base: '100vw', md:'20vw'}} p="15px" marginLeft={{base: '0', md:'268px'}}>
                       <Text mt={2} fontSize="18px" fontWeight="normal" lineHeight="22px" fontStyle="normal">CONTACT</Text>
