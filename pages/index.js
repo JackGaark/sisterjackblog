@@ -108,7 +108,7 @@ export default function Home() {
                 </Box>
               </Flex>
               <Box padding="32px">
-                <Divider borderColor='orange.300' width='30vw' marginRight='40px'/>
+                <Divider borderColor='orange.300' width='30vw' marginLeft='68%'/>
               </Box>
     </Container>
   );
