@@ -19,7 +19,7 @@ const Projects = (image) => {
             <Box>
               <Image
               width={{base: '100vw', md: '100%'}}
-              height="45vh"
+              height="60vh"
               boxShadow="2xl"
               src={'https://picsum.photos/200/300'}
               />
@@ -31,14 +31,14 @@ const Projects = (image) => {
               </Text>
             </Box>
           </a>
-            <Box width={{ base: '100vw', md: '45vw' }} marginLeft={{ base: '0', md: '45px'}}>
+            <Box width={{ base: '100vw', md: '45vw' }} marginLeft={{ base: '0', md: '80px'}}>
             <Heading size="2xl" mb={2} as="h1" paddingY="30px">
               Project Name
             </Heading>
             <Image
               width={{base: '100vw', md: '100%'}}
               boxShadow="2xl"
-              height="45vh"
+              height="60vh"
               src={'https://picsum.photos/200/300'}
               />
               <Text fontSize="18px" fontWeight="400" paddingY="30px">
@@ -58,7 +58,7 @@ const Projects = (image) => {
             <Image
               width={{base: '100vw', md: '100%'}}
               boxShadow="2xl"
-              height="45vh"
+              height="60vh"
               src={'https://picsum.photos/200/300'}
               />
               <Text fontSize="18px" fontWeight="400" paddingY="30px">
@@ -67,14 +67,14 @@ const Projects = (image) => {
               CSS, Javascript, HTML, Tagtag, Tagtagtag
               </Text>
             </Box>
-            <Box width={{ base: '100vw', md: '45vw' }} marginLeft={{ base: '0', md: '45px'}}>
+            <Box width={{ base: '100vw', md: '45vw' }} marginLeft={{ base: '0', md: '80px'}}>
             <Heading size="2xl" mb={2} as="h1" paddingY="30px">
               Project Name
             </Heading>
             <Image
               width={{base: '100vw', md: '100%'}}
               boxShadow="2xl"
-              height="45vh"
+              height="60vh"
               src={'https://picsum.photos/200/300'}
               />
               <Text fontSize="18px" fontWeight="400" paddingY="30px">
