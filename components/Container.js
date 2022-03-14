@@ -66,6 +66,11 @@ export default function Container({ children }) {
               Projects
             </Button>
           </NextLink>
+          <NextLink href="/superbonjour" passHref>
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              Superbonjour
+            </Button>
+          </NextLink>
           <a href="https://github.com/JackGaark" target="_blank">
             <Button as="a" variant="ghost" p={[1, 4]}>
               Github

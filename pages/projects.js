@@ -1,5 +1,6 @@
 import Container from "../components/Container";
-import { Box, Heading, VStack, SimpleGrid, Image, Text, Divider, Flex } from "@chakra-ui/react";
+import NextLink from "next/link";
+import { Box, Heading, Image, Text, Divider, Flex, Button } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
 const Projects = (image) => {
  
@@ -35,6 +36,7 @@ const Projects = (image) => {
             <Heading size="2xl" mb={2} as="h1" paddingY="30px">
               Project Name
             </Heading>
+            
             <Image
               width={{base: '100vw', md: '100%'}}
               boxShadow="2xl"
@@ -46,6 +48,11 @@ const Projects = (image) => {
 
               CSS, Javascript, HTML, Tagtag, Tagtagtag
               </Text>
+              <NextLink href="/superbonjour" passHref>
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              Superbonjour
+            </Button>
+          </NextLink>
             </Box>
           </Flex>
       </Box>
