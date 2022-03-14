@@ -29,6 +29,13 @@ const Projects = (image) => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus non, risus, vestibulum pulvinar dictum. Vel aliquam massa habitant ipsum. Nunc ac neque viverra augue rhoncus mattis bibendum nec. Sodales massa viverra aliquam aliquet neque, eget. Lectus dolor lacus habitasse elit. Congue auctor viverra neque aliquet dictumst quis ullamcorper neque. Tincidunt aliquet volutpat, nunc at nunc elementum. Nam leo tempus amet scelerisque adipiscing varius diam ipsum. Metus, sodales turpis lobortis quis diam tincidunt arcu.
 
               CSS, Javascript, HTML, Tagtag, Tagtagtag
+              <Flex alignItems="flex-end" wrap="wrap" justifyContent={{base: 'flex-end', md:'flex-end'}}>
+              <NextLink href="/superbonjour" passHref>       
+                <Button as="a" variant="ghost" p={[1, 4]}>
+                  Know more
+                </Button>
+              </NextLink>
+              </Flex>
               </Text>
             </Box>
           </a>
@@ -48,11 +55,7 @@ const Projects = (image) => {
 
               CSS, Javascript, HTML, Tagtag, Tagtagtag
               </Text>
-              <NextLink href="/superbonjour" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Superbonjour
-            </Button>
-          </NextLink>
+              
             </Box>
           </Flex>
       </Box>
