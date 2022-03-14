@@ -11,7 +11,7 @@ const Projects = (image) => {
         description="Contact Page for Jack Gaarkeuken"
       />
       <Box w="100vw" alignItems="flex-start" padding="0" margin="0">
-          <Flex alignItems="flex-start" wrap="wrap" justifyContent={{base: 'flex-start', md:'center'}} >
+          <Flex alignItems="flex-start" wrap="wrap" justifyContent={{base: 'flex-start', md:'space-between'}} >
           <a href="//superbonjour.com" target="_blank">
             <Box width={{ base: '100vw', md: '45vw' }}>
             <Heading size="2xl" mb={2} as="h1" paddingY="30px">
