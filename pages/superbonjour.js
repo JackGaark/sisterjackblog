@@ -1,34 +1,30 @@
-import Container from "../components/Container";
-import { Heading } from "@chakra-ui/react";
-import { NextSeo } from "next-seo";
-import Prism from "prismjs";
+import Container from '../components/Container'
+import { Heading } from '@chakra-ui/react'
+import { NextSeo } from 'next-seo'
+import Prism from 'prismjs'
 
+import { useEffect } from 'react'
 const Superbonjour = () => {
-
-
   useEffect(() => {
-    // Disable this to see that Slate returns properly formatted code
-    Prism.highlightAll();
-  }, []);
+    Prism.highlightAll()
+  }, [])
 
-  const codeSample = `{
-    "dev": "svelte dev"
-   }`;
+  console.log('Yey update me')
 
-    return (
-        <Container>
-        <NextSeo
-          title="Contact Us | Jack Gaarkeuken | Developer | Youtuber"
-          description="Contact Page for Jack Gaarkeuken"
-        />
-        <Heading>Superbonjour</Heading>
-        <pre>
-        <code>
-          {codeSample}
-        </code>
-        </pre>
-      </Container>
-    );
-};
+  const code = `const myName = "super bonjour"`
 
-export default Superbonjour;
+  return (
+    <Container>
+      <NextSeo
+        title="Contact Us | Jack Gaarkeuken | Developer | Youtuber"
+        description="Contact Page for Jack Gaarkeuken"
+      />
+      <Heading>Superbonjour</Heading>
+      <pre className="language-js" style={{ marginTop: '1em' }}>
+        <code>{code}</code>
+      </pre>
+    </Container>
+  )
+}
+
+export default Superbonjour
