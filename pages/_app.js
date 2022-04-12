@@ -5,7 +5,7 @@ import '../styles/global.css'
 import SEO from '../lib/next-seo.config'
 import Fonts from '../components/Fonts'
 import theme from '../styles/theme'
-import 'prismjs/themes/prism-tomorrow.css'
+import '../styles/code.theme.css'
 import Head from 'next/head'
 
 export default function MyApp({ Component, pageProps }) {
