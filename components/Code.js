@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Prism from "prismjs";
+import { Flex } from "@chakra-ui/layout";
 
 export default function Code({ code, language }) {
   useEffect(() => {
@@ -7,9 +8,11 @@ export default function Code({ code, language }) {
   }, []);
   return (
     <div className="Code">
-      <pre>
-        <code className={`language-${language}`}>{code}</code>
-      </pre>
+      <Flex alignItems="center" wrap="wrap" justifyContent={{base: 'center', md:'center'}}>
+        <pre>
+          <code className={`language-${language}`}>{code}</code>
+        </pre>
+      </Flex>
     </div>
   );
 }

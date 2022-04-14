@@ -22,16 +22,16 @@ export default function Container({ children }) {
   const { colorMode, toggleColorMode } = useColorMode();
 
   const bgColor = {
-    light: "white",
-    dark: "gray.900",
+    light: "#EFF2F4",
+    dark: "#EFF2F4",
   };
   const primarytextColor = {
     light: "black",
     dark: "white",
   };
   const navBgColor = {
-    light: "rgba(255,255,255, 0.8)",
-    dark: "rgba(23,25,35, 0.8)",
+    light: "#EFF2F4",
+    dark: "#EFF2F4",
   };
   return (
     <>
