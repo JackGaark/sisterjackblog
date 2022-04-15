@@ -16,7 +16,7 @@ export default function MyApp({ Component, pageProps }) {
       </Head>
       <Fonts />
       <ColorModeProvider
-        value="light"
+        value="#EFF2F4"
         options={{
           useSystemColorMode: true,
         }}

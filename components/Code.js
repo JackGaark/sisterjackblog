@@ -8,7 +8,7 @@ export default function Code({ code, language }) {
   }, []);
   return (
     <div className="Code">
-      <Flex alignItems="center" wrap="wrap" justifyContent={{base: 'center', md:'center'}}>
+      <Flex alignItems="center" height="100vh" wrap="wrap" justifyContent={{base: 'center', md:'center'}}>
         <pre>
           <code className={`language-${language}`}>{code}</code>
         </pre>
