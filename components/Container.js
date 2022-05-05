@@ -1,14 +1,8 @@
-import React from "react";
-import NextLink from "next/link";
-import styled from "@emotion/styled";
-import {
-  useColorMode,
-  Button,
-  Flex,
-  Box,
-  Heading
-} from "@chakra-ui/react";
-import Footer from "../components/Footer";
+import React from 'react'
+import NextLink from 'next/link'
+import styled from '@emotion/styled'
+import { useColorMode, Button, Flex, Box, Heading } from '@chakra-ui/react'
+import Footer from '../components/Footer'
 
 const StickyNav = styled(Flex)`
   position: sticky;
@@ -16,23 +10,16 @@ const StickyNav = styled(Flex)`
   top: 0;
   backdrop-filter: saturate(180%) blur(20px);
   transition: background-color 0.1 ease-in-out;
-`;
+`
 
 export default function Container({ children }) {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode } = useColorMode()
 
-  const bgColor = {
-    light: "#EFF2F4",
-    dark: "#EFF2F4",
-  };
   const primarytextColor = {
-    light: "black",
-    dark: "white",
-  };
-  const navBgColor = {
-    light: "#EFF2F4",
-    dark: "#EFF2F4",
-  };
+    light: 'black',
+    dark: 'white',
+  }
+
   return (
     <>
       <StickyNav
@@ -42,7 +29,7 @@ export default function Container({ children }) {
         width="100%"
         //bg={navBgColor[colorMode]}
         as="nav"
-        p={{ base: '2', md: '40px'}}
+        p={{ base: '2', md: '40px' }}
         mt={[0, 8]}
         mb={8}
         mx="auto"
@@ -95,5 +82,5 @@ export default function Container({ children }) {
         <Footer />
       </Flex>
     </>
-  );
+  )
 }

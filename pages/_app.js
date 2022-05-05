@@ -15,12 +15,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Fonts />
-      <ColorModeProvider
-        value="#EFF2F4"
-        options={{
-          useSystemColorMode: true,
-        }}
-      >
+      <ColorModeProvider value="#cccccc" options={{}}>
         <StaticKitProvider site="1e9b12e6d292">
           <DefaultSeo {...SEO} />
           <Component {...pageProps} />
