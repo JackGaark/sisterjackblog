@@ -10,8 +10,8 @@ const theme = extendTheme({
     global: (props) => ({
       body: {
         bg: mode(
-          '#cccccc' /*Ligh background color*/,
-          '#222222' /* Dark background color */
+          '#EFF2F4' /*Ligh background color*/,
+          '#EFF2F4' /* Dark background color */
         )(props),
       },
     }),
