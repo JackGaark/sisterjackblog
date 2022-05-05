@@ -21,6 +21,12 @@ const Superbonjour = () => {
       />
       <Heading>Superbonjour</Heading>
       <Code language="js" code={code}></Code>
+      Heading
+      <Code language="js" code={code}></Code>
+      Heading
+      <Code language="js" code={code}></Code>
+      Heading
+      <Code language="js" code={code}></Code>
 
     </Container>
   )

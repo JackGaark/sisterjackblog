@@ -40,7 +40,7 @@ export default function Container({ children }) {
         justifyContent="space-between"
         alignItems="center"
         width="100%"
-        bg={navBgColor[colorMode]}
+        //bg={navBgColor[colorMode]}
         as="nav"
         p={{ base: '2', md: '40px'}}
         mt={[0, 8]}
@@ -87,7 +87,7 @@ export default function Container({ children }) {
         as="main"
         justifyContent="center"
         flexDirection="column"
-        bg={bgColor[colorMode]}
+        //bg={bgColor[colorMode]}
         color={primarytextColor[colorMode]}
         // px={{base: 2, md: 8}}
       >
