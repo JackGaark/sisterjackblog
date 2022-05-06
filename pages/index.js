@@ -12,26 +12,30 @@ import {
 
 import { NextSeo } from 'next-seo'
 export default function Home() {
+  const textStyle = {
+        width:"70vw",
+        mt:2,
+        marginLeft:"40px",
+        fontSize:"36px",
+        fontWeight:"normal",
+        lineHeight:"43px",
+        fontStyle:"normal"
+  }
+
   return (
     <Container maxWidth="container.xl" padding={0}>
       <NextSeo
         title="Home | Jack Gaarkeuken | Developer "
         description="Homepage of Jack Gaarkeuken"
       />
-      <Text
-        width="80vw"
-        mt={2}
-        marginLeft="40px"
-        fontSize="36px"
-        fontWeight="normal"
-        lineHeight="43px"
-        fontStyle="normal"
-      >
-        Insert a solid intro statement here. Hi, I'm Jack. Great to meet you.
-        Insert a solid intro statement here. Insert a solid intro statement
-        here. Insert a solid intro statement here. Insert a solid intro
-        statement here. Insert a solid intro statement here. Insert a solid
-        intro statement here.
+      <Text {...textStyle}>
+        Hi, I’m Jack. I am a front end developer based in Montreal, Qc. After 10+ years working in finance as a Business Analyst, I went back to school to start a new career as a developper. 4-ish years ago, I completed a bootcamp at Le Wagon, and many online courses. My focus now is front end development — contributing to great web design and experiences, striving to build pixel perfect sites, learning about all the ways I can code in more elegant, robust and modular ways. I’m also interested in FinTech, the intersection of these two industries fascinates me — democratizing finance, thinking of new tools, improving interfaces and people general experience in daily money stuff
+      </Text>
+      <Text {...textStyle}>
+        Looking forward to connecting with you. I am happy to work locally and remotely. I speak four languages (including French and English) — I’m great with people and teamwork, and  I’m a very hard worker. Talk soon!   
+      </Text>
+      <Text {...textStyle}>
+      PS My latest site won an ADCC design award! Check it out! 
       </Text>
       <Divider
         borderColor="orange.300"
@@ -97,43 +101,43 @@ export default function Home() {
             <ListItem>
               <Flex>
                 <Text>Advanced React,</Text>
-                <Text color="orange.300">Name of School</Text>
+                <Text color="orange.300">  Wes Bos</Text>
               </Flex>
             </ListItem>
             <ListItem>
               <Flex>
                 <Text>Complete Intro to React,</Text>
-                <Text color="orange.300">Name of School</Text>
+                <Text color="orange.300">  Le Wagon</Text>
               </Flex>
             </ListItem>
             <ListItem>
               <Flex>
-                <Text>Advanced React,</Text>
-                <Text color="orange.300">Name of School</Text>
+                <Text>Gatsby Workshops,</Text>
+                <Text color="orange.300">  Front End Masters</Text>
               </Flex>
             </ListItem>
             <ListItem>
               <Flex>
-                <Text>Advanced React,</Text>
-                <Text color="orange.300">Name of School</Text>
+                <Text>Intermediate React,</Text>
+                <Text color="orange.300">Front End Masters</Text>
               </Flex>
             </ListItem>
             <ListItem>
               <Flex>
-                <Text>Advanced React,</Text>
-                <Text color="orange.300">Name of School</Text>
+                <Text>Angular Fundamentals,</Text>
+                <Text color="orange.300">NewLine</Text>
               </Flex>
             </ListItem>
             <ListItem>
               <Flex>
-                <Text>Advanced React,</Text>
-                <Text color="orange.300">Name of School</Text>
+                <Text>Fullstack React with Typescript,</Text>
+                <Text color="orange.300">NewLine</Text>
               </Flex>
             </ListItem>
             <ListItem>
               <Flex>
-                <Text>Advanced React,</Text>
-                <Text color="orange.300">Name of School</Text>
+                <Text>Advanced CSS,</Text>
+                <Text color="orange.300">SuperHi</Text>
               </Flex>
             </ListItem>
           </UnorderedList>
@@ -166,7 +170,7 @@ export default function Home() {
             fontStyle="normal"
           >
             My pronouns are he/him. And I am fluent in english and in french. I
-            am located in Montreal, Qc. Always happy to hear about new
+            am located in Montreal, Qc. <br></br><br></br>Always happy to hear about new
             opportunities localy and remote. The best way to reach me is via
             email or on LinkedIn.
           </Text>

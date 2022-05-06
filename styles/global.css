@@ -1,9 +1,16 @@
+  @font-face {
+    font-family: 'Ranua-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/Ranua-Regular.otf') format('opentype');
+  }
+
 html,
 body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: RanuaTrials-Regular sans-serif, -apple-system, BlinkMacSystemFont,
+  font-family: Ranua-Regular sans-serif, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue;
 }

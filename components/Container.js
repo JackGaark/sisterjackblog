@@ -8,7 +8,7 @@ const StickyNav = styled(Flex)`
   position: sticky;
   z-index: 10;
   top: 0;
-  backdrop-filter: saturate(180%) blur(20px);
+  /* backdrop-filter: saturate(180%) blur(20px); */
   transition: background-color 0.1 ease-in-out;
 `
 
@@ -39,21 +39,19 @@ export default function Container({ children }) {
           icon={colorMode === "dark" ? "sun" : "moon"}
           onClick={toggleColorMode}
         /> */}
-        <Heading padding={0} fontSize="36px" color="orange.300">
-          Jack Gaarkeuken
-        </Heading>
-        <Box>
+        <Heading>
           <NextLink href="/" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Home
+            <Button as="a" variant="ghost" bg="transparent" padding={0} fontSize="36px" color="orange.300" >
+              Jack Gaarkeuken
             </Button>
           </NextLink>
+        </Heading>
+        <Box>
           <NextLink href="/projects" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
               Projects
             </Button>
           </NextLink>
-          
           <a href="https://github.com/JackGaark" target="_blank">
             <Button as="a" variant="ghost" p={[1, 4]}>
               Github

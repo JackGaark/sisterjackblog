@@ -3,8 +3,8 @@ import { mode } from '@chakra-ui/theme-tools'
 
 const theme = extendTheme({
   fonts: {
-    heading: `RanuaTrials`,
-    body: `RanuaTrials`,
+    heading: `Ranua-Regular`,
+    body: `Ranua-Regular`,
   },
   styles: {
     global: (props) => ({

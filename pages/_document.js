@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link href="https://blogfonts.com/css/aWQ9MTk4OTg2JnN1Yj05ODYmYz1yJnR0Zj1SYW51YVRyaWFscy1Cb2xkSXRhbGljLm90ZiZuPXJhbnVhLXRyaWFscy02/RanuaTrials.otf" rel="stylesheet" type="text/css"/>
+          {/* <link href="https://blogfonts.com/css/aWQ9MTk4OTg2JnN1Yj05ODYmYz1yJnR0Zj1SYW51YVRyaWFscy1Cb2xkSXRhbGljLm90ZiZuPXJhbnVhLXRyaWFscy02/Ranua-Regular.otf" rel="stylesheet" type="text/css"/> */}
         </Head>
         <body>
           <Main />
