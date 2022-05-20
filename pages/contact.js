@@ -1,10 +1,10 @@
-import React from "react";
-import { useForm, ValidationError } from "@statickit/react";
-import Container from "../components/Container";
-import { Box, Heading, Input, Text, Textarea, Button } from "@chakra-ui/react";
-import { NextSeo } from "next-seo";
+import React from 'react'
+import { useForm, ValidationError } from '@statickit/react'
+import Container from '../components/Container'
+import { Box, Heading, Input, Text, Textarea, Button } from '@chakra-ui/react'
+import { NextSeo } from 'next-seo'
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm("contactForm");
+  const [state, handleSubmit] = useForm('contactForm')
 
   if (state.succeeded) {
     return (
@@ -15,16 +15,16 @@ const ContactForm = () => {
         />
         <Box maxWidth="700px" width="100%" px={6} mt={[0, 8]} mb={8} mx="auto">
           <Heading mb={2} size="2xl" as="h1">
-            {" "}
+            {' '}
             Contact Me
           </Heading>
           <Text mb={2} textAlign="center">
-            {" "}
+            {' '}
             Thank you for contacting me
           </Text>
         </Box>
       </Container>
-    );
+    )
   }
   return (
     <Container>
@@ -34,7 +34,6 @@ const ContactForm = () => {
       />
       <Box maxWidth="700px" width="100%" px={6} mt={[0, 8]} mb={8} mx="auto">
         <Heading mb={2} size="2xl" as="h1">
-          {" "}
           Contact Me
         </Heading>
         <form onSubmit={handleSubmit}>
@@ -74,7 +73,7 @@ const ContactForm = () => {
         </form>
       </Box>
     </Container>
-  );
-};
+  )
+}
 
-export default ContactForm;
+export default ContactForm

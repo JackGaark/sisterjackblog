@@ -41,7 +41,7 @@ const Projects = (image) => {
                 <Image
                   width={{ base: '100vw', md: '100%' }}
                   height="60vh"
-                  boxShadow="2xl"
+                  // boxShadow="2xl"
                   src={'https://picsum.photos/200/300'}
                 />
               </a>
@@ -117,7 +117,7 @@ const Projects = (image) => {
 
             <Image
               width={{ base: '100vw', md: '100%' }}
-              boxShadow="2xl"
+              //boxShadow="2xl"
               height="60vh"
               src={'https://picsum.photos/200/300'}
             />
@@ -136,7 +136,7 @@ const Projects = (image) => {
 
           <Box
             width={{ base: '100vw', md: '42vw' }}
-            marginLeft={{ base: '0', md: '60px' }}
+            marginLeft={{ base: '0', md: '0px' }}
           >
             <Heading size="2xl" mb={2} as="h1" paddingY="30px">
               Project Name
@@ -144,7 +144,7 @@ const Projects = (image) => {
 
             <Image
               width={{ base: '100vw', md: '100%' }}
-              boxShadow="2xl"
+              //boxShadow="2xl"
               height="60vh"
               src={'https://picsum.photos/200/300'}
             />

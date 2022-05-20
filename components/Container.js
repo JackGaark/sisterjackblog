@@ -41,7 +41,14 @@ export default function Container({ children }) {
         /> */}
         <Heading>
           <NextLink href="/" passHref>
-            <Button as="a" variant="ghost" bg="transparent" padding={0} fontSize="36px" color="orange.300" >
+            <Button
+              as="a"
+              variant="ghost"
+              bg="transparent"
+              padding={0}
+              fontSize="36px"
+              color="orange.300"
+            >
               Jack Gaarkeuken
             </Button>
           </NextLink>
