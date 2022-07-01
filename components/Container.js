@@ -80,7 +80,6 @@ export default function Container({ children }) {
         // px={{base: 2, md: 8}}
       >
         {children}
-        <Footer />
       </Flex>
     </>
   )

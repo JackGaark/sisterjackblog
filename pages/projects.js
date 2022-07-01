@@ -11,6 +11,8 @@ import {
 } from '@chakra-ui/react'
 import { NextSeo } from 'next-seo'
 import { ArrowForwardIcon } from '@chakra-ui/icons'
+import Footer from '../components/Footer'
+
 const Projects = (image) => {
   const textStyle = {
     fontSize: '18px',
@@ -42,7 +44,9 @@ const Projects = (image) => {
                   width={{ base: '100vw', md: '100%' }}
                   height="60vh"
                   // boxShadow="2xl"
-                  src={'https://picsum.photos/200/300'}
+                  objectFit="cover"
+                  src="./KOMBI_1.png"
+                  alt="sport picture"
                 />
               </a>
             </Box>
@@ -119,7 +123,9 @@ const Projects = (image) => {
               width={{ base: '100vw', md: '100%' }}
               //boxShadow="2xl"
               height="60vh"
-              src={'https://picsum.photos/200/300'}
+              objectFit="cover"
+              src="./KOMBI_2.png"
+              alt="sport picture"
             />
             <Text fontSize="18px" fontWeight="400" paddingY="30px">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus
@@ -146,7 +152,9 @@ const Projects = (image) => {
               width={{ base: '100vw', md: '100%' }}
               //boxShadow="2xl"
               height="60vh"
-              src={'https://picsum.photos/200/300'}
+              objectFit="cover"
+              src="./KOMBI_3.png"
+              alt="sport picture"
             />
 
             <Text fontSize="18px" fontWeight="400" paddingY="30px">
@@ -167,6 +175,7 @@ const Projects = (image) => {
       <Box padding="32px">
         <Divider borderColor="orange.300" width="30vw" marginLeft="68%" />
       </Box>
+      <Footer />
     </Container>
   )
 }
