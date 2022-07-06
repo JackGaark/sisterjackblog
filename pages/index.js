@@ -14,16 +14,16 @@ import { NextSeo } from 'next-seo'
 export default function Home() {
   const textStyle = {
     width: '70vw',
-    mt: 2,
-    marginLeft: '40px',
-    fontSize: '36px',
+    mt: [2, 4, 6, 8],
+    marginLeft: { base: '24px', md: '40px', lg: '36px' },
+    fontSize: { base: '24px', md: '40px', lg: '36px' },
     fontWeight: 'normal',
-    lineHeight: '43px',
+    lineHeight: { base: '22px', md: '43px' },
     fontStyle: 'normal',
   }
 
   return (
-    <Container maxWidth="container.xl" padding={0}>
+    <Container maxWidth="container.xl" padding={0} display={{ md: 'flex' }}>
       <NextSeo
         title="Home | Jack Gaarkeuken | Developer "
         description="Homepage of Jack Gaarkeuken"
@@ -52,13 +52,13 @@ export default function Home() {
         borderColor="orange.300"
         width="80vw"
         paddingY="20px"
-        marginLeft="40px"
+        marginLeft={{ base: '20px', md: '40px' }}
       />
       <Flex wrap="wrap" alignItems="start" paddingY="36px">
         <Box
           width={{ base: '100vw', md: '20vw' }}
           p="15px"
-          marginLeft={{ base: '0', md: '268px' }}
+          marginLeft={{ base: '8px', md: '268px' }}
         >
           <Text
             mt={2}
@@ -88,7 +88,7 @@ export default function Home() {
             Online Classes
           </Text>
         </Box>
-        <Box width={{ base: '100vw', md: '40vw' }} p="5px">
+        <Box width={{ base: '100vw', md: '40vw', sm: '28vw' }} p="5px">
           <Flex
             wrap="wrap"
             mr="400px"
@@ -154,7 +154,11 @@ export default function Home() {
           </UnorderedList>
         </Box>
       </Flex>
-      <Divider borderColor="orange.300" width="80vw" marginLeft="40px" />
+      <Divider
+        borderColor="orange.300"
+        width="80vw"
+        marginLeft={{ base: '20px', md: '40px' }}
+      />
       <Flex wrap="wrap" alignItems="start">
         <Box
           width={{ base: '100vw', md: '20vw' }}

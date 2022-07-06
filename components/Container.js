@@ -26,10 +26,11 @@ export default function Container({ children }) {
         flexDirection="row"
         justifyContent="space-between"
         alignItems="center"
+        display={{ md: 'flex' }}
         width="100%"
         //bg={navBgColor[colorMode]}
         as="nav"
-        p={{ base: '2', md: '40px' }}
+        p={{ base: '6', md: '40px' }}
         mt={[0, 8]}
         mb={8}
         mx="auto"
@@ -77,7 +78,7 @@ export default function Container({ children }) {
         flexDirection="column"
         //bg={bgColor[colorMode]}
         color={primarytextColor[colorMode]}
-        // px={{base: 2, md: 8}}
+        //px={{ base: 2, md: 8 }}
       >
         {children}
       </Flex>
