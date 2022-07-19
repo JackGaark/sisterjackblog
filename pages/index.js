@@ -8,6 +8,7 @@ import {
   ListItem,
   Divider,
   useColorModeValue,
+  Hide,
 } from '@chakra-ui/react'
 
 import { NextSeo } from 'next-seo'
@@ -54,40 +55,47 @@ export default function Home() {
         paddingY="20px"
         marginLeft={{ base: '20px', md: '40px' }}
       />
-      <Flex wrap="wrap" alignItems="start" paddingY="36px">
-        <Box
-          width={{ base: '100vw', md: '20vw' }}
-          p="15px"
-          marginLeft={{ base: '8px', md: '268px' }}
-        >
-          <Text
-            mt={2}
-            fontSize="18px"
-            fontWeight="normal"
-            lineHeight="22px"
-            fontStyle="normal"
+      <Flex
+        wrap="wrap"
+        alignItems="start"
+        paddingY="36px"
+        display={{ md: 'flex' }}
+      >
+        <Hide breakpoint="(max-width: 400px)">
+          <Box
+            width={{ base: '100vw', md: '20vw' }}
+            p="5px"
+            marginLeft={{ base: '8px', md: '268px' }}
           >
-            CV
-          </Text>
-          <Text
-            mt={2}
-            fontSize="18px"
-            fontWeight="normal"
-            lineHeight="22px"
-            fontStyle="normal"
-          >
-            Bootcamp
-          </Text>
-          <Text
-            mt={2}
-            fontSize="18px"
-            fontWeight="normal"
-            lineHeight="22px"
-            fontStyle="normal"
-          >
-            Online Classes
-          </Text>
-        </Box>
+            <Text
+              mt={2}
+              fontSize="18px"
+              fontWeight="normal"
+              lineHeight="22px"
+              fontStyle="normal"
+            >
+              CV
+            </Text>
+            <Text
+              mt={2}
+              fontSize="18px"
+              fontWeight="normal"
+              lineHeight="22px"
+              fontStyle="normal"
+            >
+              Bootcamp
+            </Text>
+            <Text
+              mt={2}
+              fontSize="18px"
+              fontWeight="normal"
+              lineHeight="22px"
+              fontStyle="normal"
+            >
+              Online Classes
+            </Text>
+          </Box>
+        </Hide>
         <Box width={{ base: '100vw', md: '40vw', sm: '28vw' }} p="5px">
           <Flex
             wrap="wrap"
@@ -109,48 +117,52 @@ export default function Home() {
             <Text>Montreal, Qc.</Text>
           </Flex>
           <UnorderedList>
-            <ListItem>
-              <Flex>
-                <Text>Advanced React,</Text>
-                <Text color="orange.300"> Wes Bos</Text>
-              </Flex>
-            </ListItem>
-            <ListItem>
-              <Flex>
-                <Text>Complete Intro to React,</Text>
-                <Text color="orange.300"> Le Wagon</Text>
-              </Flex>
-            </ListItem>
-            <ListItem>
-              <Flex>
-                <Text>Gatsby Workshops,</Text>
-                <Text color="orange.300"> Front End Masters</Text>
-              </Flex>
-            </ListItem>
-            <ListItem>
-              <Flex>
-                <Text>Intermediate React,</Text>
-                <Text color="orange.300">Front End Masters</Text>
-              </Flex>
-            </ListItem>
-            <ListItem>
-              <Flex>
-                <Text>Angular Fundamentals,</Text>
-                <Text color="orange.300">NewLine</Text>
-              </Flex>
-            </ListItem>
-            <ListItem>
-              <Flex>
-                <Text>Fullstack React with Typescript,</Text>
-                <Text color="orange.300">NewLine</Text>
-              </Flex>
-            </ListItem>
-            <ListItem>
-              <Flex>
-                <Text>Advanced CSS,</Text>
-                <Text color="orange.300">SuperHi</Text>
-              </Flex>
-            </ListItem>
+            <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
+              <Box flexShrink={0}>
+                <ListItem>
+                  <Flex>
+                    <Text>Advanced React,</Text>
+                    <Text color="orange.300"> Wes Bos</Text>
+                  </Flex>
+                </ListItem>
+                <ListItem>
+                  <Flex>
+                    <Text>Complete Intro to React,</Text>
+                    <Text color="orange.300"> Le Wagon</Text>
+                  </Flex>
+                </ListItem>
+                <ListItem>
+                  <Flex>
+                    <Text>Gatsby Workshops,</Text>
+                    <Text color="orange.300"> Front End Masters</Text>
+                  </Flex>
+                </ListItem>
+                <ListItem>
+                  <Flex>
+                    <Text>Intermediate React,</Text>
+                    <Text color="orange.300">Front End Masters</Text>
+                  </Flex>
+                </ListItem>
+                <ListItem>
+                  <Flex>
+                    <Text>Angular Fundamentals,</Text>
+                    <Text color="orange.300">NewLine</Text>
+                  </Flex>
+                </ListItem>
+                <ListItem>
+                  <Flex>
+                    <Text>Fullstack React with Typescript,</Text>
+                    <Text color="orange.300">NewLine</Text>
+                  </Flex>
+                </ListItem>
+                <ListItem>
+                  <Flex>
+                    <Text>Advanced CSS,</Text>
+                    <Text color="orange.300">SuperHi</Text>
+                  </Flex>
+                </ListItem>
+              </Box>
+            </Box>
           </UnorderedList>
         </Box>
       </Flex>
