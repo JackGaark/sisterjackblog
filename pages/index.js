@@ -55,12 +55,7 @@ export default function Home() {
         paddingY="20px"
         marginLeft={{ base: '20px', md: '40px' }}
       />
-      <Flex
-        wrap="wrap"
-        alignItems="start"
-        paddingY="36px"
-        display={{ md: 'flex' }}
-      >
+      <Flex wrap="wrap" alignItems="start" paddingY="36px">
         <Hide breakpoint="(max-width: 400px)">
           <Box
             width={{ base: '100vw', md: '20vw' }}
@@ -117,7 +112,7 @@ export default function Home() {
             <Text>Montreal, Qc.</Text>
           </Flex>
           <UnorderedList>
-            <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
+            <Box mt={{ base: 4, md: 1 }} ml={{ md: 0 }}>
               <Box flexShrink={0}>
                 <ListItem>
                   <Flex>
