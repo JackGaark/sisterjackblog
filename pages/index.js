@@ -95,6 +95,7 @@ export default function Home() {
           <Flex
             wrap="wrap"
             mr="400px"
+            marginLeft="11px"
             spacing={4}
             marginBottom={4}
             color={useColorModeValue('orange.300')}
@@ -107,8 +108,10 @@ export default function Home() {
               Github
             </a>
           </Flex>
-          <Flex>
-            <Text color="orange.300">Le Wagon,</Text>
+          <Flex marginLeft="11px">
+            <Text color="orange.300" marginRight="10px">
+              Le Wagon,
+            </Text>
             <Text>Montreal, Qc.</Text>
           </Flex>
           <UnorderedList>
@@ -116,43 +119,43 @@ export default function Home() {
               <Box flexShrink={0}>
                 <ListItem>
                   <Flex>
-                    <Text>Advanced React,</Text>
+                    <Text marginRight="10px">Advanced React,</Text>
                     <Text color="orange.300"> Wes Bos</Text>
                   </Flex>
                 </ListItem>
                 <ListItem>
                   <Flex>
-                    <Text>Complete Intro to React,</Text>
+                    <Text marginRight="10px">Complete Intro to React,</Text>
                     <Text color="orange.300"> Le Wagon</Text>
                   </Flex>
                 </ListItem>
                 <ListItem>
                   <Flex>
-                    <Text>Gatsby Workshops,</Text>
+                    <Text marginRight="10px">Gatsby Workshops,</Text>
                     <Text color="orange.300"> Front End Masters</Text>
                   </Flex>
                 </ListItem>
                 <ListItem>
                   <Flex>
-                    <Text>Intermediate React,</Text>
+                    <Text marginRight="10px">Intermediate React,</Text>
                     <Text color="orange.300">Front End Masters</Text>
                   </Flex>
                 </ListItem>
                 <ListItem>
                   <Flex>
-                    <Text>Angular Fundamentals,</Text>
+                    <Text marginRight="10px">Angular Fundamentals,</Text>
                     <Text color="orange.300">NewLine</Text>
                   </Flex>
                 </ListItem>
                 <ListItem>
                   <Flex>
-                    <Text>Fullstack React with Typescript,</Text>
+                    <Text marginRight="10px">React with Typescript,</Text>
                     <Text color="orange.300">NewLine</Text>
                   </Flex>
                 </ListItem>
                 <ListItem>
                   <Flex>
-                    <Text>Advanced CSS,</Text>
+                    <Text marginRight="10px">Advanced CSS,</Text>
                     <Text color="orange.300">SuperHi</Text>
                   </Flex>
                 </ListItem>
