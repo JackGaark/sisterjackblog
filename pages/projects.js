@@ -45,7 +45,7 @@ const Projects = (image) => {
                   height="60vh"
                   // boxShadow="2xl"
                   objectFit="cover"
-                  src="./KOMBI_1.png"
+                  src="./image_8.jpg"
                   alt="sport picture"
                 />
               </a>
@@ -124,7 +124,7 @@ const Projects = (image) => {
               //boxShadow="2xl"
               height="60vh"
               objectFit="cover"
-              src="./KOMBI_2.png"
+              src="./image_7.jpg"
               alt="sport picture"
             />
             <Text fontSize="18px" fontWeight="400" paddingY="30px">
@@ -153,7 +153,7 @@ const Projects = (image) => {
               //boxShadow="2xl"
               height="60vh"
               objectFit="cover"
-              src="./KOMBI_3.png"
+              src="./image_9.jpg"
               alt="sport picture"
             />
 
