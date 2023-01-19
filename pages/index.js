@@ -100,7 +100,10 @@ export default function Home() {
             marginBottom={4}
             color={useColorModeValue('orange.300')}
           >
-            <a href="https://github.com/JackGaark" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/jack-gaarkeuken/"
+              target="_blank"
+            >
               LinkedIn
             </a>
             <Spacer spacing={1} />
@@ -110,7 +113,9 @@ export default function Home() {
           </Flex>
           <Flex marginLeft="11px">
             <Text color="orange.300" marginRight="10px">
-              Le Wagon,
+              <a href="https://www.lewagon.com/fr/montreal" target="_blank">
+                Le Wagon,
+              </a>
             </Text>
             <Text>Montreal, Qc.</Text>
           </Flex>
@@ -120,31 +125,54 @@ export default function Home() {
                 <ListItem>
                   <Flex>
                     <Text marginRight="10px">Advanced React,</Text>
-                    <Text color="orange.300"> Wes Bos</Text>
+                    <Text color="orange.300">
+                      <a href="https://wesbos.com/courses" target="_blank">
+                        Wes Bos
+                      </a>
+                    </Text>
                   </Flex>
                 </ListItem>
                 <ListItem>
                   <Flex>
                     <Text marginRight="10px">Complete Intro to React,</Text>
-                    <Text color="orange.300"> Le Wagon</Text>
+                    <Text color="orange.300">
+                      <a
+                        href="https://www.lewagon.com/fr/montreal"
+                        target="_blank"
+                      >
+                        Le Wagon
+                      </a>
+                    </Text>
                   </Flex>
                 </ListItem>
                 <ListItem>
                   <Flex>
                     <Text marginRight="10px">Gatsby Workshops,</Text>
-                    <Text color="orange.300"> Front End Masters</Text>
+                    <Text color="orange.300">
+                      <a href="https://frontendmasters.com/" target="_blank">
+                        Front End Masters
+                      </a>
+                    </Text>
                   </Flex>
                 </ListItem>
                 <ListItem>
                   <Flex>
                     <Text marginRight="10px">Intermediate React,</Text>
-                    <Text color="orange.300">Front End Masters</Text>
+                    <Text color="orange.300">
+                      <a href="https://frontendmasters.com/" target="_blank">
+                        Front End Masters
+                      </a>
+                    </Text>
                   </Flex>
                 </ListItem>
                 <ListItem>
                   <Flex>
                     <Text marginRight="10px">Angular Fundamentals,</Text>
-                    <Text color="orange.300">NewLine</Text>
+                    <Text color="orange.300">
+                      <a href="https://www.newline.co/" target="_blank">
+                        NewLine
+                      </a>
+                    </Text>
                   </Flex>
                 </ListItem>
                 <ListItem>
