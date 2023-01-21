@@ -2,6 +2,15 @@ import { extendTheme, theme as base } from '@chakra-ui/react'
 import { mode } from '@chakra-ui/theme-tools'
 
 const theme = extendTheme({
+  components: {
+    Link: {
+      variants: {
+        ghost: {
+          fontWeight: 'bold',
+        },
+      },
+    },
+  },
   fonts: {
     heading: `Ranua-Regular`,
     body: `Ranua-Regular`,

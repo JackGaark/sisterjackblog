@@ -1,31 +1,33 @@
-import React from "react";
-import { Flex, Link } from "@chakra-ui/react";
+import React from 'react'
+import { Flex, Link } from '@chakra-ui/react'
 
 export default function Footer() {
   return (
-    <Flex justify="right" mb={4} paddingY="5px" paddingX="30px" color="orange.300">
+    <Flex
+      justify="right"
+      mb={4}
+      paddingY="5px"
+      paddingX="30px"
+      color="orange.300"
+    >
       <Link
-        href="#"
-        pr={12}
+        href="https://www.instagram.com/jaco.svg/"
         target="_blank"
+        pr={12}
         rel="noopener noreferrer"
         aria-label="Youtube Link"
       >
-        <a href="https://www.instagram.com/jaco.svg/" target="_blank">
-                          IG
-        </a> 
+        IG
       </Link>
       <Link
-        href="#"
-        pr={6}
+        href="https://twitter.com/JacoSvg"
         target="_blank"
+        pr={6}
         rel="noopener noreferrer"
         aria-label="Youtube Link"
       >
-        <a href="https://twitter.com/JacoSvg" target="_blank">
-                          TW
-        </a>
+        TW
       </Link>
     </Flex>
-  );
+  )
 }

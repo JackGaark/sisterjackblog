@@ -1,7 +1,14 @@
 import React from 'react'
 import NextLink from 'next/link'
 import styled from '@emotion/styled'
-import { useColorMode, Button, Flex, Box, Heading } from '@chakra-ui/react'
+import {
+  Link,
+  useColorMode,
+  Button,
+  Flex,
+  Box,
+  Heading,
+} from '@chakra-ui/react'
 import Footer from '../components/Footer'
 
 const StickyNav = styled(Flex)`
@@ -41,35 +48,33 @@ export default function Container({ children }) {
           onClick={toggleColorMode}
         /> */}
         <Heading>
-          <NextLink href="/" passHref>
-            <Button
-              as="a"
-              variant="ghost"
-              bg="transparent"
-              padding={0}
-              fontSize="36px"
-              color="orange.300"
-            >
-              Jack Gaarkeuken
-            </Button>
-          </NextLink>
+          <Link
+            href="/"
+            as={NextLink}
+            variant="ghost"
+            bg="transparent"
+            padding={0}
+            fontSize="36px"
+            color="orange.300"
+          >
+            Jack Gaarkeuken
+          </Link>
         </Heading>
         <Box>
-          <NextLink href="/projects" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Projects
-            </Button>
-          </NextLink>
-          <a href="https://github.com/JackGaark" target="_blank">
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Github
-            </Button>
-          </a>
-          <NextLink href="/contact" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Contact
-            </Button>
-          </NextLink>
+          <Link href="/projects" as={NextLink} variant="ghost" p={[1, 4]}>
+            Projects
+          </Link>
+          <Link
+            href="https://github.com/JackGaark"
+            as={NextLink}
+            variant="ghost"
+            p={[1, 4]}
+          >
+            Github
+          </Link>
+          <Link href="/contact" as={NextLink} variant="ghost" p={[1, 4]}>
+            Contact
+          </Link>
         </Box>
       </StickyNav>
       <Flex
