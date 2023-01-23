@@ -3,6 +3,7 @@ import NextLink from 'next/link'
 import styled from '@emotion/styled'
 import {
   Link,
+  Divider,
   useColorMode,
   Button,
   Flex,
@@ -87,6 +88,10 @@ export default function Container({ children }) {
       >
         {children}
       </Flex>
+      <Box padding="32px">
+        <Divider borderColor="orange.300" width="30vw" marginLeft="68%" />
+      </Box>
+      <Footer />
     </>
   )
 }

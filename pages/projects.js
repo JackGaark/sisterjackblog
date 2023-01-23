@@ -175,11 +175,6 @@ const Projects = (image) => {
           </Box>
         </Flex>
       </Box>
-
-      <Box padding="32px">
-        <Divider borderColor="orange.300" width="30vw" marginLeft="68%" />
-      </Box>
-      <Footer />
     </Container>
   )
 }
