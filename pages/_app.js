@@ -4,6 +4,7 @@ import { DefaultSeo } from 'next-seo'
 import '../styles/global.css'
 import SEO from '../lib/next-seo.config'
 import Fonts from '../components/Fonts'
+import Cursor from '../components/Cursor'
 import theme from '../styles/theme'
 import '../styles/code.theme.css'
 import Head from 'next/head'
@@ -18,7 +19,9 @@ export default function MyApp({ Component, pageProps }) {
       <ColorModeProvider value="#cccccc" options={{}}>
         <StaticKitProvider site="1e9b12e6d292">
           <DefaultSeo {...SEO} />
-          <Component {...pageProps} />
+          <Component {...pageProps}>
+            <Cursor />
+          </Component>
         </StaticKitProvider>
       </ColorModeProvider>
     </ChakraProvider>
