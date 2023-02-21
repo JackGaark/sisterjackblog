@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react'
-import styles from './cursor.module.css'
 
 const BALLS_NUM = 12
 

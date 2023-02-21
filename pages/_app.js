@@ -19,10 +19,9 @@ export default function MyApp({ Component, pageProps }) {
       <ColorModeProvider value="#cccccc" options={{}}>
         <StaticKitProvider site="1e9b12e6d292">
           <DefaultSeo {...SEO} />
-          <Component {...pageProps}>
-            <Cursor />
-          </Component>
+          <Component {...pageProps} />
         </StaticKitProvider>
+        <Cursor />
       </ColorModeProvider>
     </ChakraProvider>
   )
