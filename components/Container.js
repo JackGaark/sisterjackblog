@@ -66,6 +66,7 @@ export default function Container({ children }) {
         className="App"
         onMouseMove={(e) => {
           aimRef.current.x = e.pageX
+
           aimRef.current.y = e.pageY
         }}
       >
@@ -135,6 +136,7 @@ export default function Container({ children }) {
         <Box padding="32px">
           <Divider borderColor="orange.300" width="30vw" marginLeft="68%" />
         </Box>
+
         <Footer />
       </div>
     </>
