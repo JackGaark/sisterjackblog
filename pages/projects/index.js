@@ -1,4 +1,4 @@
-import Container from '../components/Container'
+import Container from '../../components/Container'
 import NextLink from 'next/link'
 import {
   Link,
@@ -12,7 +12,7 @@ import {
 } from '@chakra-ui/react'
 import { NextSeo } from 'next-seo'
 import { ArrowForwardIcon } from '@chakra-ui/icons'
-import Footer from '../components/Footer'
+import Footer from '../../components/Footer'
 
 const Projects = (image) => {
   const textStyle = {
@@ -35,12 +35,12 @@ const Projects = (image) => {
         >
           <Box width={{ base: '100vw', md: '42vw' }}>
             <Heading size="2xl" mb={2} as="h1" paddingY="30px">
-              <a href="//superbonjour.com" target="_blank">
+              <a href="/projects/superbonjour" target="_blank">
                 Super Bonjour
               </a>
             </Heading>
             <Box>
-              <a href="//superbonjour.com" target="_blank">
+              <a href="/projects/superbonjour" target="_blank">
                 <Image
                   width={{ base: '100vw', md: '100%' }}
                   height="60vh"
@@ -140,6 +140,22 @@ const Projects = (image) => {
               all the frontend tooling, with lightning fast HMR and optimized
               build was preferable to other build tools.
             </Text>
+            <Text {...textStyle}>
+              I spent a considerable amount of time finding the best solutions
+              for optimization. That’s when Cloudinary came in. I wanted to
+              reduce the load time as much as possible. Amazon AWS could have
+              also been an option. But Cloudinary felt easier to use, simpler —
+              when it comes to ease of use, when products consider new devs with
+              empathy, I’m always down.
+            </Text>
+            <Text {...textStyle}>
+              I spent a considerable amount of time finding the best solutions
+              for optimization. That’s when Cloudinary came in. I wanted to
+              reduce the load time as much as possible. Amazon AWS could have
+              also been an option. But Cloudinary felt easier to use, simpler —
+              when it comes to ease of use, when products consider new devs with
+              empathy, I’m always down.
+            </Text>
           </Box>
 
           <Box
@@ -165,6 +181,22 @@ const Projects = (image) => {
               Heroku are some of the tools used. For this group project I
               focused on the backend, I'm usually more frontend. PostgresSQl,
               Active Records, Cloudinary, and heroku were used for the backend.
+            </Text>
+            <Text {...textStyle}>
+              I spent a considerable amount of time finding the best solutions
+              for optimization. That’s when Cloudinary came in. I wanted to
+              reduce the load time as much as possible. Amazon AWS could have
+              also been an option. But Cloudinary felt easier to use, simpler —
+              when it comes to ease of use, when products consider new devs with
+              empathy, I’m always down.
+            </Text>
+            <Text {...textStyle}>
+              I spent a considerable amount of time finding the best solutions
+              for optimization. That’s when Cloudinary came in. I wanted to
+              reduce the load time as much as possible. Amazon AWS could have
+              also been an option. But Cloudinary felt easier to use, simpler —
+              when it comes to ease of use, when products consider new devs with
+              empathy, I’m always down.
             </Text>
           </Box>
         </Flex>
