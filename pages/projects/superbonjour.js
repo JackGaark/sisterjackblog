@@ -20,8 +20,8 @@ const Superbonjour = () => {
   return (
     <Container>
       <NextSeo
-        title="Contact Us | Jack Gaarkeuken | Developer | Youtuber"
-        description="Contact Page for Jack Gaarkeuken"
+        title="Super Bonjour | Jack Gaarkeuken"
+        description="Super Bonjour, a portfolio site built with Svelte by Jack Gaarkeuken"
       />
       {/* <Heading>Superbonjour</Heading> */}
       {/* <Code language="js" code={code}></Code>

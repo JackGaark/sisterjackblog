@@ -24,8 +24,8 @@ const Projects = (image) => {
   return (
     <Container>
       <NextSeo
-        title="Contact Us | Jack Gaarkeuken | Developer | Youtuber"
-        description="Contact Page for Jack Gaarkeuken"
+        title="Projects | Jack Gaarkeuken"
+        description="Selected projects by Jack Gaarkeuken"
       />
       <Box w="100vw" alignItems="flex-start" padding="10" margin="0">
         <Flex
