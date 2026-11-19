@@ -237,6 +237,78 @@ const Projects = (image) => {
               cheap or expensive.
             </Text>
           </Box>
+
+          <Box
+            width={{ base: '100vw', md: '42vw' }}
+            marginLeft={{ base: '0', md: '0px' }}
+          >
+            <Heading size="2xl" mb={2} as="h1" paddingY="30px">
+              <a href="https://beamish-biscotti-f60939.netlify.app/" target="_blank">
+                FINA
+              </a>
+            </Heading>
+
+            <a href="https://beamish-biscotti-f60939.netlify.app/" target="_blank">
+              <Image
+                width={{ base: '100vw', md: '100%' }}
+                height="60vh"
+                objectFit="cover"
+                objectPosition="top left"
+                src="./fina.jpg"
+                alt="FINA chapter library home page with a column for each finance chapter"
+              />
+            </a>
+
+            <Text {...textStyle}>
+              A corporate-finance chapter library. The original chapter PDFs
+              are reflowed into searchable HTML, from present value and the
+              yield curve to CAPM and financial statements, and every page
+              links back to the source PDF.
+            </Text>
+            <Text {...textStyle}>
+              The equations are live: change an input and the printed formula
+              recalculates in place. More than 400 equation regions were
+              audited against the source, keeping the book’s own values and
+              flagging where a printed result doesn’t add up. Built in vanilla
+              JavaScript, with Elasticsearch search and a browser search
+              fallback.
+            </Text>
+          </Box>
+
+          <Box
+            width={{ base: '100vw', md: '42vw' }}
+            marginLeft={{ base: '0', md: '60px' }}
+          >
+            <Heading size="2xl" mb={2} as="h1" paddingY="30px">
+              <a href="https://delightful-moonbeam-f3fac3.netlify.app/" target="_blank">
+                Bureau Normal
+              </a>
+            </Heading>
+
+            <a href="https://delightful-moonbeam-f3fac3.netlify.app/" target="_blank">
+              <Image
+                width={{ base: '100vw', md: '100%' }}
+                height="60vh"
+                objectFit="cover"
+                src="./bureau-normal.jpg"
+                alt="Bureau Normal overview page, a grid of architecture photographs"
+              />
+            </a>
+
+            <Text {...textStyle}>
+              A site for an architecture studio, built in SvelteKit and Svelte
+              5 from a Figma design, with plain CSS and no component library.
+              The layout follows the design to the pixel on a shared grid: 8
+              columns on desktop, 6 on tablet and 4 on mobile.
+            </Text>
+            <Text {...textStyle}>
+              The landing page ends on the studio’s wordmark, then a featured
+              gallery slides up over it. Wheel, swipe, arrow keys and side
+              buttons move through the images, and Escape closes it. Other
+              pages include an image overview, a project index with hover
+              previews, and project pages with full-screen slides.
+            </Text>
+          </Box>
         </Flex>
       </Box>
     </Container>
