@@ -223,17 +223,18 @@ const Projects = (image) => {
             </a>
 
             <Text {...textStyle}>
-              An interactive 3-D visualization of 25 years of U.S. Treasury
-              yields. Each slice of the surface is a single day’s yield curve,
-              from the 1-month bill out to the 30-year bond, and stacking them
-              turns interest-rate history into a landscape you can explore.
+              A modern rebuild of the New York Times’ 2015 “3-D yield curve”
+              interactive. Daily U.S. Treasury yields from 1990 to 2015 become
+              a surface you can orbit: each slice is a single day’s yield
+              curve, from the 1-month bill out to the 30-year bond, and stacked
+              together they turn interest-rate history into a landscape.
             </Text>
             <Text {...textStyle}>
-              The surface is rendered in WebGL with Three.js, with Svelte
-              driving a guided, step-by-step tour that moves the camera through
-              the data: reading a normal curve, the zero interest-rate era
-              after 2008, and a top-down view where color shows when borrowing
-              was cheap or expensive. Built with Vite and deployed on Netlify.
+              Built with Vite, Svelte 5, Three.js and d3. Svelte drives a
+              guided, step-by-step tour that moves the camera through the
+              data: reading a normal curve, the zero interest-rate era after
+              2008, and a top-down view where color shows when borrowing was
+              cheap or expensive.
             </Text>
           </Box>
         </Flex>
