@@ -10,16 +10,18 @@ const Superbonjour = () => {
   const code = `const myName = "super bonjour"`
 
   const textStyle = {
+    width: { base: '80vw' },
     fontSize: '18px',
     fontWeight: '400',
     paddingY: '30px',
+    paddingX: '40px',
   }
 
   return (
     <Container>
       <NextSeo
-        title="Contact Us | Jack Gaarkeuken | Developer | Youtuber"
-        description="Contact Page for Jack Gaarkeuken"
+        title="Super Bonjour | Jack Gaarkeuken"
+        description="Super Bonjour, a portfolio site built with Svelte by Jack Gaarkeuken"
       />
       {/* <Heading>Superbonjour</Heading> */}
       {/* <Code language="js" code={code}></Code>
@@ -37,24 +39,17 @@ const Superbonjour = () => {
         ></Flex>
         <Box width={{ base: '100vw', md: '42vw' }}>
           <Heading size="2xl" mb={2} as="h1" paddingY="30px">
-            <a href="/projects/superbonjour" target="_blank">
-              Super Bonjour
-            </a>
+            <Link href="/">Super Bonjour</Link>
           </Heading>
           <Box>
-            <Link href="/contact" as={NextLink} variant="ghost" p={[1, 4]}>
-              Contact
-            </Link>
-            <a href="/projects/superbonjour" target="_blank">
-              <Image
-                width={{ base: '100vw', md: '100%' }}
-                height="60vh"
-                // boxShadow="2xl"
-                objectFit="cover"
-                src="./image_8.jpg"
-                alt="sport picture"
-              />
-            </a>
+            <Image
+              width={{ base: '100vw', md: '100%' }}
+              height="40vh"
+              // boxShadow="2xl"
+              objectFit="cover"
+              src="../image_8.jpg"
+              alt="sport picture"
+            />
           </Box>
         </Box>
       </Box>
