@@ -199,6 +199,43 @@ const Projects = (image) => {
               empathy, I’m always down.
             </Text>
           </Box>
+
+          <Box
+            width={{ base: '100vw', md: '42vw' }}
+            marginLeft={{ base: '0', md: '60px' }}
+          >
+            <Heading size="2xl" mb={2} as="h1" paddingY="30px">
+              <a href="https://jolly-sawine-819822.netlify.app/" target="_blank">
+                A 3-D Yield Curve
+              </a>
+            </Heading>
+
+            <a href="https://jolly-sawine-819822.netlify.app/" target="_blank">
+              <Image
+                width={{ base: '100vw', md: '100%' }}
+                height="60vh"
+                objectFit="contain"
+                bg="white"
+                padding="4"
+                src="./interest-rate.jpg"
+                alt="3-D wireframe of yield curves across maturities from 1995 to 2020"
+              />
+            </a>
+
+            <Text {...textStyle}>
+              An interactive 3-D visualization of 25 years of U.S. Treasury
+              yields. Each slice of the surface is a single day’s yield curve,
+              from the 1-month bill out to the 30-year bond, and stacking them
+              turns interest-rate history into a landscape you can explore.
+            </Text>
+            <Text {...textStyle}>
+              The surface is rendered in WebGL with Three.js, with Svelte
+              driving a guided, step-by-step tour that moves the camera through
+              the data: reading a normal curve, the zero interest-rate era
+              after 2008, and a top-down view where color shows when borrowing
+              was cheap or expensive. Built with Vite and deployed on Netlify.
+            </Text>
+          </Box>
         </Flex>
       </Box>
     </Container>
