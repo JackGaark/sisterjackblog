@@ -33,6 +33,81 @@ const Projects = (image) => {
           wrap="wrap"
           justifyContent={{ base: 'flex-start', md: 'space-between' }}
         >
+          <Box
+            width={{ base: '100vw', md: '42vw' }}
+            marginLeft={{ base: '0', md: '0px' }}
+          >
+            <Heading size="2xl" mb={2} as="h1" paddingY="30px">
+              <a href="https://beamish-biscotti-f60939.netlify.app/" target="_blank">
+                FINA
+              </a>
+            </Heading>
+
+            <a href="https://beamish-biscotti-f60939.netlify.app/" target="_blank">
+              <Image
+                width={{ base: '100vw', md: '100%' }}
+                height="60vh"
+                objectFit="cover"
+                objectPosition="top left"
+                src="./fina.jpg"
+                alt="FINA chapter library home page with a column for each finance chapter"
+              />
+            </a>
+
+            <Text {...textStyle}>
+              A corporate-finance chapter library. The original chapter PDFs
+              are reflowed into searchable HTML, from present value and the
+              yield curve to CAPM and financial statements, and every page
+              links back to the source PDF.
+            </Text>
+            <Text {...textStyle}>
+              The equations are live: change an input and the printed formula
+              recalculates in place. More than 400 equation regions were
+              audited against the source, keeping the book’s own values and
+              flagging where a printed result doesn’t add up. Built in vanilla
+              JavaScript, with Elasticsearch search and a browser search
+              fallback.
+            </Text>
+          </Box>
+
+          <Box
+            width={{ base: '100vw', md: '42vw' }}
+            marginLeft={{ base: '0', md: '60px' }}
+          >
+            <Heading size="2xl" mb={2} as="h1" paddingY="30px">
+              <a href="https://jolly-sawine-819822.netlify.app/" target="_blank">
+                A 3-D Yield Curve
+              </a>
+            </Heading>
+
+            <a href="https://jolly-sawine-819822.netlify.app/" target="_blank">
+              <Image
+                width={{ base: '100vw', md: '100%' }}
+                height="60vh"
+                objectFit="contain"
+                bg="white"
+                padding="4"
+                src="./interest-rate.jpg"
+                alt="3-D wireframe of yield curves across maturities from 1995 to 2020"
+              />
+            </a>
+
+            <Text {...textStyle}>
+              A modern rebuild of the New York Times’ 2015 “3-D yield curve”
+              interactive. Daily U.S. Treasury yields from 1990 to 2015 become
+              a surface you can orbit: each slice is a single day’s yield
+              curve, from the 1-month bill out to the 30-year bond, and stacked
+              together they turn interest-rate history into a landscape.
+            </Text>
+            <Text {...textStyle}>
+              Built with Vite, Svelte 5, Three.js and d3. Svelte drives a
+              guided, step-by-step tour that moves the camera through the
+              data: reading a normal curve, the zero interest-rate era after
+              2008, and a top-down view where color shows when borrowing was
+              cheap or expensive.
+            </Text>
+          </Box>
+
           <Box width={{ base: '100vw', md: '42vw' }}>
             <Heading size="2xl" mb={2} as="h1" paddingY="30px">
               <a href="/projects/superbonjour" target="_blank">
@@ -197,81 +272,6 @@ const Projects = (image) => {
               also been an option. But Cloudinary felt easier to use, simpler —
               when it comes to ease of use, when products consider new devs with
               empathy, I’m always down.
-            </Text>
-          </Box>
-
-          <Box
-            width={{ base: '100vw', md: '42vw' }}
-            marginLeft={{ base: '0', md: '60px' }}
-          >
-            <Heading size="2xl" mb={2} as="h1" paddingY="30px">
-              <a href="https://jolly-sawine-819822.netlify.app/" target="_blank">
-                A 3-D Yield Curve
-              </a>
-            </Heading>
-
-            <a href="https://jolly-sawine-819822.netlify.app/" target="_blank">
-              <Image
-                width={{ base: '100vw', md: '100%' }}
-                height="60vh"
-                objectFit="contain"
-                bg="white"
-                padding="4"
-                src="./interest-rate.jpg"
-                alt="3-D wireframe of yield curves across maturities from 1995 to 2020"
-              />
-            </a>
-
-            <Text {...textStyle}>
-              A modern rebuild of the New York Times’ 2015 “3-D yield curve”
-              interactive. Daily U.S. Treasury yields from 1990 to 2015 become
-              a surface you can orbit: each slice is a single day’s yield
-              curve, from the 1-month bill out to the 30-year bond, and stacked
-              together they turn interest-rate history into a landscape.
-            </Text>
-            <Text {...textStyle}>
-              Built with Vite, Svelte 5, Three.js and d3. Svelte drives a
-              guided, step-by-step tour that moves the camera through the
-              data: reading a normal curve, the zero interest-rate era after
-              2008, and a top-down view where color shows when borrowing was
-              cheap or expensive.
-            </Text>
-          </Box>
-
-          <Box
-            width={{ base: '100vw', md: '42vw' }}
-            marginLeft={{ base: '0', md: '0px' }}
-          >
-            <Heading size="2xl" mb={2} as="h1" paddingY="30px">
-              <a href="https://beamish-biscotti-f60939.netlify.app/" target="_blank">
-                FINA
-              </a>
-            </Heading>
-
-            <a href="https://beamish-biscotti-f60939.netlify.app/" target="_blank">
-              <Image
-                width={{ base: '100vw', md: '100%' }}
-                height="60vh"
-                objectFit="cover"
-                objectPosition="top left"
-                src="./fina.jpg"
-                alt="FINA chapter library home page with a column for each finance chapter"
-              />
-            </a>
-
-            <Text {...textStyle}>
-              A corporate-finance chapter library. The original chapter PDFs
-              are reflowed into searchable HTML, from present value and the
-              yield curve to CAPM and financial statements, and every page
-              links back to the source PDF.
-            </Text>
-            <Text {...textStyle}>
-              The equations are live: change an input and the printed formula
-              recalculates in place. More than 400 equation regions were
-              audited against the source, keeping the book’s own values and
-              flagging where a printed result doesn’t add up. Built in vanilla
-              JavaScript, with Elasticsearch search and a browser search
-              fallback.
             </Text>
           </Box>
 
